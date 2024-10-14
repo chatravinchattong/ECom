@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Shop</title>
+    <link rel="icon" href="image/Screenshot 2024-10-09 215412.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="Home" href="Home.html">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+    <div class="container">
+        <div class="nav-con">
+        <div class="logo" >
+            <a href="Home.html">Classic</a>
+        </div>
+        <ul class="menu">
+            <li><a href="Home.html"> Home </a></li>
+            <li><a href="Product.html"> Product </a></li>
+            <li><a href="Cart.html"> Cart </a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section class="blog">
+        <div class="container">
+            <div class="blog-title">
+                <h2> Cart </h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="cart-container">
+        <!-- <h1>Your Shopping Cart</h1> -->
+
+        <div class="cart">
+            <!-- Cart Header -->
+            <div class="cart-header">
+                <div>Product</div>
+                <div>Quantity</div>
+                <div>Price</div>
+            </div>
+
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="image/shop04-Photoroom.png" alt="Product Image">
+                <div class="cart-item-details">
+                    <h4>Product Name</h4>
+                    <p>Short description of the product goes here.</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <input type="text" value="1">
+                    <button>+</button>
+                </div>
+                <div class="cart-item-price">
+                    $29.99
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="image/Cart05-Photoroom.png" alt="Product Image">
+                <div class="cart-item-details">
+                    <h4>Another Product</h4>
+                    <p>Another description of the product.</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <input type="text" value="2">
+                    <button>+</button>
+                </div>
+                <div class="cart-item-price">
+                    $19.99
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <!-- Cart Footer -->
+            <div class="cart-footer">
+                <div class="cart-total">
+                    Total: $49.98
+                </div>
+                <a href="#" class="checkout-btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+<div class="footer-top">
+    <div class="container">
+        <div class="footer-top-con">
+            <div class="footer-top-item">
+                <h4>Last Post</h4>
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        16
+                    </div>
+                    <div class="info">
+                        <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                        <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                    </div>
+                </div>
+
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        16
+                    </div>
+                    <div class="info">
+                        <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                        <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                    </div>
+                </div>
+
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        16
+                    </div>
+                    <div class="info">
+                        <span class="info-title">Lorem ipsum dolor sit amet.</span>
+                        <span class="info-desc">Lorem ipsum dolor sit amet consectetur.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top-item">
+                <h4> About </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint, eos facilis eaque, earum necessitatibus iste perferendis recusandae, aut veniam sapiente aliquam inventore temporibus nemo eius quas libero alias officiis?</p>
+            </div>
+            <div class="footer-top-item">
+                <h4> Connected </h4>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-buttom">
+    <p>@Copyright 2023. All right reserved Classis web design.; </p>
+</div>

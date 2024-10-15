@@ -253,3 +253,19 @@ h1 {
     padding: 1rem;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .blog-con {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .blog-con {
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+    }
+    
+}

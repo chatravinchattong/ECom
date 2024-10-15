@@ -6,6 +6,7 @@
 
 .container {
     width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 5px;
 }
@@ -261,6 +262,11 @@ h1 {
 
 
 @media (max-width: 768px) {
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+    }
     .blog-con {
         grid-template-columns: 1fr 1fr;
     }
@@ -276,6 +282,11 @@ h1 {
 }
 
 @media (max-width: 575px) {
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+    }
     .blog-con {
         grid-template-columns: 1fr;
         column-gap: 2rem;
